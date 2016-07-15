@@ -1,0 +1,143 @@
+body{
+    background-color: #0d0d0d;
+}
+
+.navbar-inverse .navbar-brand {
+    color:#E50914;
+    font-family: serif;
+    font-weight: 600;
+    font-size: 32px;
+    padding: 18px;
+    vertical-align: middle;
+   }
+
+.navbar-inverse .navbar-nav>li>a {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.navbar-inverse .navbar-nav>li>ul{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,.7) 10%, rgba(0, 0, 0, 0.35));
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.container-fluid{
+    background-image: linear-gradient(black, #5a5a5a);
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: #111;}
+
+ul.topnav li.icon {display: none;}
+
+.firstimg img {
+    width: 100%;
+    height: auto;
+}
+
+.firstimg img:hover{
+    transform: none;
+}
+
+.firstimg h2{
+    position: absolute;
+    top: 200px;
+    left: 25px;
+    width:100%;
+    color:white;
+}
+.firstimg h3{
+    position: absolute;
+    top: 255px;
+    color:white;
+    left: 25px;
+    width:100%;
+}
+
+.firstimg p{
+    position: absolute;
+    top: 325px;
+    color:white;
+    left: 25px;
+    width:40%;
+    font-weight: 400;
+    font-size: 1.4vw;
+}
+
+.well, .thumbnail{
+    width:100%;
+    background-color: black;
+    border:none;
+    padding: 2px;
+}
+
+.carousel-control {
+    padding-top:2%;
+    width:5%;
+}
+
+div p{
+    font-size: 1.4vw;
+    color:#999;
+    font-weight: 700;
+}
+
+img:hover {
+    transform: scale(1.5,1.2);
+}
+
+.col-sm-3{
+    padding: 4px;
+    padding-left: 0px;
+}
+
+footer {
+    background: #0d0d0d;
+    color: #eee;
+    font-size: 11px;
+    padding: 2px;
+    display: list-item;
+}
+
+@media screen and (max-width:680px) {
+    ul.topnav li:not(:first-child) {display: none;}
+    ul.topnav li.icon {
+        float: right;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:680px) {
+    ul.topnav.responsive {position: relative;}
+    ul.topnav.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    ul.topnav.responsive li {
+        float: none;
+        display: inline;
+    }
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+}
